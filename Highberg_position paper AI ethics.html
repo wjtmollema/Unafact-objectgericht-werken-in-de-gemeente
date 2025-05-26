@@ -3,8 +3,8 @@
     <html lang="nl"></html>
   <head>
     <meta charset="utf-8" />
-    <title>AI ethics for public organisations: A risk-based approach</title>
-    <h2 id="subtitle">Specificaties en functionaliteit</h2>
+    <title>AI ethics for public organisations</title>
+    <h2 id="subtitle">A risk-based approach</h2>
   <script src="https://www.w3.org/Tools/respec/respec-w3c" class="remove" defer>
   </script>
   <script class="remove">
@@ -76,7 +76,12 @@
   </style>
   <body>
     <section id="abstract">
-      <p>Key takeaways komen hier</p>
+      <p>Highberg’s risk-based approach to AI ethics is relevant for information professionals concerned with AI, compliance, privacy, security, and ethics.
+For public organisations, a risk-based approach for AI ethics is helpful for realising responsible use of AI systems, in line with organizations’ duties under AI Act.  
+The risk-based approach for AI ethics deepens the ethical component of responsible AI and is a next step      to the AI Act’s Fundamental Rights Impact Assessments (FRIA).
+Awareness of ethical risks related to the stakeholders surrounding an AI system is necessary for establishing responsible governance for AI systems.
+Combining ethical reflection with risk analysis leads to ethically justified risk-mitigation measures.
+</p>
     </section>
     <section id="sotd">
       <p>Dit document is een levend document. </p>
@@ -85,33 +90,94 @@
 <br />
 <section>
   <h1>Introduction</h1>
+With the coming of the AI Act, risk analyses of AI systems are gaining in importance. The AI Act requires public organisations and deployers of high-risk systems to perform an impact assessment that    also encompasses ethical considerations.  To achieve responsible use of AI systems in the public sector, the proper interplay between law, technology and ethics has to be found (see Figure 1). 
+For ethical use of AI systems, we believe the Fundamental Rights Impact Assessment on its own in the context of the AI Act is not sufficient. Therefore, we devote attention in this position paper to the ethical component of responsible AI and show public organisations how to effectively ask the question ‘Is it desirable?’ with respect to their AI systems. 
+At Highberg we believe that practical ethics can be combined with risk analyses of AI systems in what we call ‘a risk-based approach to AI ethics’. Our approach makes AI ethics part of day-to-day practices. What distinguishes Highberg’s approach is that it doesn’t give you a series of boxes to check so that you can flaunt with the label ‘ethical’. Highberg’s approach yields a continuous implementation of AI ethics to which an organisation has to be fully committed, otherwise all one does is ethics washing, shirking or dumping. 
+In recent years, many principles, frameworks and guidelines for AI ethics have been made available. However, we think more is needed to bring AI ethics into practice. This risk-based approach aims to narrow the gap between implementation in public organisations on the one hand and abstract ethical principles on the other. We look closely at the risk-based AI Act by also taking a risk-based route in our ethical approach. This effectively connects the legal and ethical domains. We also translate the risks AI brings with it to ethical reflection, leading to the mitigation of AI systems’ risks in an ethically grounded way. This ethical grounding based on identified risks justifies the answer to the question ‘Is the AI system desirable?’
 
  </section>
 
  <section>
  <h1>Highberg's risk-based approach to AI ethics</h1>
+ Before diving into the details, we first lay out the basics of our risk-based approach to AI ethics. With the AI Act or the development of an AI system as starting point, analyses  of so-called ethical risks provide insights into the values and perspectives of the organisation and the relevant stakeholders. To make sense of these insights, an  organisation’s ethical values, principles and goals need to be  discovered and highlighted. These ethical pillars guide and frame an organisation’s identification of a risk and the corresponding measures for risk mitigation that are proposed.   For example, when using AI in a health care context, values from medical ethics play an important role, such as respect for autonomy and non-maleficence. However, when using AI in another context, for example in the asset management of public space, other values are prominent, like sustainability and inclusivity. But other contexts also bring along varying value tensions.
+In     short, the risk-based  approach consists of four steps:
+1.	Broad risk analysis;
+2.	Reflection on ethical risks   and tensions between values;
+3.	Refine or expand risk analysis with input from ethical reflection;
+4.	Decision on mitigating measures.
+But before we unpack the four steps; it is worthwhile to define what an AI system is and where ethics comes into the picture. Throughout the text, we build up the four-step model of the risk-based approach to AI ethics in a schematic image. We illustrate our approach by pointing out the relations between the AI system, the related ethical risks, and the organization’s goals values. 
+
   </section>
    <section>
         <h1>Why do AI systems need ethics?</h1>
+        Starting with the domain of the AI system, under the AI Act, AI systems are defined as “machine-based” and “designed to operate with varying levels of autonomy and [...] may exhibit adaptiveness after deployment”.   With the received input, the system produces an output that directly influences its (virtual) environment. For each AI-system, there are harms to be avoided and benefits to be captured. In relation to these harms and benefits, AI ethics is therefore   concerned with the societal duties to avoid harm and do good. AI ethics is about the choices made with regard to the ethical responsibilities of stakeholders in the  context of the AI system. 
+These responsibilities  could be described  as ‘ethical risks’. This is where the domain of the organisation comes into the picture: AI is always embedded into the social role of the organisation deploying it.  This view is not relevant for all types of technology, but it is especially for AI systems. AI systems function at varying levels of autonomy, and are characterised, for example, by abilities such as inferencing and pattern recognition, which distinguishes them from more 'static' data science or business intelligence applications, such as Power BI dashboards or algorithmically automated calculations. AI systems are also characterised by their dynamic effects of stakeholders interacting with the system. At the same time, AI systems, such as machine learning models, are also influenced by the stakeholders designing and developing the choices made for data collection.  
+Blindness to these considerations can lead to harmful outcomes and benefits that remain unnoticed. Awareness of this starts with asking the right questions  :
+•	Why do we pursue an AI solution to the problem or opportunity at hand   ? Will it give a solution of the quality we expect?
+•	What are the alternatives to developing an AI solution?
+•	What are the organisational and public values related to the problem the AI system solves?   
+•	Which stakeholders are affected in the distinct phases of the AI system’s development and deployment?
+The context of application determines what decisions on responsible use must be made and what aspects are inherent to the usage of specific AI systems. These systems distinguish themselves from other technologies   via the semi-autonomy of their technological processes, and the challenges they give rise to regarding transparency and explainability, and with stakeholder involvement (e.g., in the design, data collection and deployment phases).
+Partly because of some of these complications, the AI Act asks public organisations to undertake   a risk-based assessment for responsibly  deploying AI. Before we can introduce the next domain, that of ethical risks, we need to explain how our approach extends the AI Act’s idea of assessing and mitigating AI systems’ risks for the ethical domain.  
+
          </section>
           <section>
         <h1>The AI Act's FRIA as starting point</h1>
+        The AI Act categorises AI systems according to 'risk levels' . You can read more about this in Highberg’s whitepaper on the AI Act. In short:
+Some AI systems face no restrictions, while others are banned because of unacceptable risks. Examples of the latter are systems concerning social scoring, facial recognition, biometric identification, and emotion and belief measurements in schools and the workplace.  
+On the other hand, limited risk systems face transparency obligations. 
+Finally, high risk systems require a conformity assessment before being put on the market and a Fundamental Rights Impact Assessment (FRIA) before being deployed.  
+To know what risk-level a system is, an impact assessment is needed. We are convinced that a well-done risk analysis before deploying a system, will save you time in the end.  Without an ethical risk assessment, crucial dangers preying on the AI application could be hidden from sight, leading to severe problems after deployment. In our current context, it is relevant to emphasise that governmental organisations, private organisations that fulfil public duties, and deployers of high-risk systems are obliged to conduct a FRIA prior to bringing an AI system into production.   The FRIA provides a good start but has its limitations.
+
          </section>
         <section>
          <h1>Limitations of FRIA's</h1>
+         The FRIA targets the impact of an AI system on fundamental human rights. It prescribes the implementation of measures to prevent risks that can already be identified in the design phase and are to be mitigated. Under the AI Act, ‘risk’ is the combination of the gravity of a harm and how likely it is to occur.   The benefit of the FRIA is that it enables ethical risks to be tackled before the AI system is taken into production.  Currently, a new development is the ‘DPIAMA’     , which combines a Data Protection Impact Assessment (DPIA) with a FRIA for the same algorithmic system, leading to a double efficiency gain: firstly, because of the overlap between DPIA and FRIA, and secondly, because of bundling both assessments and resulting measures  into a single activity.
+However, for ethical AI throughout the system’s lifecycle, a successful one-time FRIA is not enough. It only targets risks, possibly eliminated in the development or design phase of high-risk AI systems.  The risk thus becomes actual once the AI system is designed in a certain way. But a risk becoming actual is not the same as the harm that results when the risk occurs. Risk management in this sense is about addressing the risks before they cause harm, rather than specifying how to deal with actual harm done to stakeholders and how to remedy that.     It is also worth noting that, for high-risk AI systems, the AI Act introduces an obligation to report serious incidents. 
+Therefore, the FRIA cannot mitigate any novel ethical risks that emerge, or risks that turn into harm, once the AI system is up and running and in interaction with stakeholders.
+This means that for successful responsible AI and compliance to the AI Act, risk identification and management are but the very beginning. In the following sections, we hence specify how to practice and implement AI ethics after initial compliance to the AI Act has been reached.  This results in the successful implementation and responsible use of AI systems. 
+
          </section>
           <section>
         <h1>Ethical risks and reflection on values and goals</h1>
-         </section>
+        The concept of ‘ethical risk’ is the first step towards making AI ethics tangible and practicable. This term is therefore in need of a definition. An ethical risk is a risk concerning an AI system that can lead stakeholders related to   the system to fail their ethical responsibilities towards other stakeholders.  In our schema (see Figure 2), this introduces the ‘domain of ethical risks’. In other words, ethical risks are all the ethically negative ways in which an organization’s AI system can affect public values and stakeholders. The deployment of the AI system produces a tension between public values or has a detrimental effect on one of them, or on the welfare or wellbeing of stakeholders. The first step of the risk-based approach is to conduct a broad risk analysis to inquire into how the AI system affects stakeholders and public values.
+      In  the overview on the next page, we highlight several types of ethical risks regarding AI systems that especially concern public actors and a failure of responsibilities to their stakeholders.
+Deciding whether a situation is a risk for an organisation or in a situation specific for an organisation depends on the ethical framework the organisation is using. Your ethical framework is like a pair of glasses that helps discern risks and mitigation strategies, but which may downplay other possible risks  . Knowing what frame is used within your organisation thus helps deciding what risks are relevant, but also what measures to take. But: knowing the framework also yields information about situations that are not considered risks for the organisation itself, but in which other stakeholders can be at risk. When the used framework is aligned with organisational goals and ethical responsibilities, you become able to formulate measures that resonate with your organisation, your employees and your stakeholders  .
+ Identifying  ethical risks for when the AI system is up and running starts a process of ethical reflection that should be embedded in your organisation. Reflecting on how the organisation’s (public) values and goals frame the ethical risks is the second step of the risk-based approach (see Figure 3). One should ask: ‘Why are these factors and consequences risks for us?’ ‘Why are these risks inacceptable to us? What organisational values and goals underpin that judgment  ?’ Personal, organisational and public values supply a frame in which something is perceived as a risk, because of how the harm that follows the risks affects those values. The values and goals that are part of the organisation frame the domain of ethical risks. Because they are embedded in the organisation, they provide what counts as a negative effect of AI systems on (public) values and stakeholders.
+ Following this identification of organizational values and goals, the third step of the risk-based approach refines the initial identification of ethical risks (see Figure 4). Depending on the values you bring along, some risks may be more, or less, ethically relevant. Following this refinement of the risks’ ethical valuation, ways of risk mitigation can be specified that go beyond elimination of the risk alone: they will be deeply tied to your organisation’s core values and the goals that are tried to be achieved by using an AI system. As AI is  system-technology, the ethical risks involved with AI systems have technical, social and legal components.    The crux of the matter is to bring these technical, social and legal components together based on the public values your organisation aims to foster in the formulated responses. The set of formulated responses based on the ethically refined ethical risk scop is the input for the final step.
+      </section>
           <section>
         <h1>From AI's ethical risks to decisions on mitigating measures</h1>
-         </section>
+      The refined scope of ethical risks and the initial formulation of responses brings us to the final step of the risk-based approach to AI ethics (see Figure 5). The final step is a value-based ethical trade-off. Every ethical reflection that must end as a decision involves making a trade-off regarding the related value tension(s). In the case of the domain of ethical risks that AI ethics deals with, not all risks can be eliminated, and sometimes, an enormous benefit is worth the risk of a (minimal) harm occurring. This step comes last because this trade-off can only be made based on your organisation’s ethical principles, (public) values and goals. Without ties to these goals and the values at your organisation’s core, accounting for the benefits and burdens of your AI system is impossible . The final step outputs a decision that proposes an ethically weighed off risk measure targeted at the AI system’s ethical risk that is built upon:
+•	the first step’s identification of how the AI system affects stakeholders and public values;
+•	the second step’s organisation’s (public) goals and values that underpin the ethical reflection; and 
+•	the third step’s risk scope that was ethically refined based on the identified goals and values and the set of possible responses to the ethical risks that follow from it.
+To summarise, the risk-based approach to AI ethics that we have developed and motivated here consists of the following steps.
+•1.	Broad risk analysis: What is the potential negative impact of the AI system?;
+•2.	Reflection on ethical risks and tensions between values: First, reflect on the organisational and public values you that are of importance to your tasks and services. Then use this reflection to identify how the ethical risks concerned with the AI system affect your organisation’s distinct value profile;
+•3.	Refine risk analysis with input from ethical reflection: Specify the risks’ technical, legal, social and ethical dimensions and formulate possible responses relate to your organisational values;
+•4.	Decision on mitigating measures: Weigh off possible measures and prepare to address and be accountable for any remaining harms and risks. 
+Although we advise that AI ethics is practiced well before the system is deployed, this reflection plan is general enough to be accommodated to any phase of the AI system lifecycle. Whether these questions are asked during design or evaluation of the system, co-designing answers with your intraorganizational stakeholders will prove beneficial. 
+Finally, note well that the AI Act itself pays little attention to stakeholder participation in AI development and deployment, which is why stakeholder management and participation should be considered as central to AI ethics after the FRIA is first completed.   Note that in the process of including stakeholders, stakeholders can also be represented by an emissary they support. Especially because in the case of public organisations operating in the social domain, stakeholder involvement is the central ethical concern.   
+Striving for ‘participatory AI’ can therefore be a helpful result of ethical reflection: affected stakeholders need to be involved in the design of AI system and the evaluation of the system’s  deployment or should at least be adequately consulted.  For example, stakeholder involvement can contribute to minimizing algorithmic bias in the data gathering phase by introducing stakeholders in the data curation process. Stakeholder involvement can also have positive effects on the design phase by introducing them in the process of determining the right classificatory outputs for AI systems. Likewise, if stakeholders are subjected to the output of an AI system, they should be involved in the evaluation  of the system too: together with stakeholders, public organisations can evaluate whether any unforeseen problems emerged or how the continuously learning AI system can be improved.
+  
+      </section>
           <section>
         <h1>A note on succesful implementations of AI ethics</h1>
-         </section>
+      How can you put the risk-based approach  to good use in your organisation? 
+The past few years have  seen a proliferation of different functions, roles and tools for AI ethics. Ranging from (AI) ethics officers, ethical commissions, algorithmic risk boards, data-ethics expertise groups,  frameworks, principles,  and toolkits,  these all have their pros and cons. However, our vision is that whatever the implementational format, making room in the business model of AI development and deployment for the necessary ethical conversations about the responsible use of AI, is the main factor of success. But, making room for AI ethics should be tuned to the organisation’s and its AI systems’ context. In short, tailoring the implementation of AI ethics is advised.
+This is where Highberg’s consultants can make the difference.  Within Highberg we strive to address and take on all aspects of responsible digital and organisational transformations. We bring a diverse pallet of perspectives and expertise to help public and private actors pragmatically harness AI’s potential and mitigate its risks. This combination of expertise and diversity is what enables making real impact.     Highberg’s approach yields more than a tactic for checking the ethical box: it results in a continuous implementation of AI ethics    to which an organisation must be fully committed. The continuity of this implementation is enabled by embedding it in the existing control or ‘plan-do-check-act’ cycles. 
+This shows that ethics is more than a good conversation but does start with it. For realising successful implementation of AI ethics, the underlying organisation and public values have to be excavated and transformed into practical tools for ethical risk analysis. We want to make sure that your AI system is ethically validated throughout its entire lifecycle.   
+
+It is time to give public actors’ AI use the ethical care it deserves.
+   
+      </section>
           <section>
         <h1>Acknowledgements and author information</h1> 
-         </section>
+        <h2>Acknowledgements</h2> 
+        <h2>Author information</h2> 
+      Our thanks go out to our colleagues Sabine Steenwinkel-Den Daas, Sebastiaan Streng, and Erik van Zegveld for their helpful feedback and directions during the writing process. Thanks also to Luna van Vilsteren for her contribution to some of the visualisations figuring in the text.  
+      </section>
  </section>
   
   <section id="index" class="appendix">
